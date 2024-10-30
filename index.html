@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paradise Donuts</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff5f5; /* Light pink background */
+            color: #4a4a4a; /* Dark gray text */
+        }
+
+        header {
+            background-color: #ffcccb; /* Light pastel yellow */
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            color: #ff69b4; /* Hot pink */
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #4a4a4a;
+        }
+
+        #hero {
+            text-align: center;
+            padding: 50px 20px;
+            background: url('donut-hero-image.jpg') center/cover no-repeat; /* Placeholder for a hero image */
+            color: white;
+        }
+
+        .cta-button {
+            background-color: #ff69b4; /* Hot pink */
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #ffcccb; /* Light pastel yellow */
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Paradise Donuts!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h2>Delicious Donuts Made Fresh Daily</h2>
+        <p>Indulge in our heavenly selection of flavors!</p>
+        <a href="#menu" class="cta-button">Explore Our Menu</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Paradise Donuts, we believe that every donut is a little piece of paradise. Made with love and the finest ingredients, our donuts are designed to bring a smile to your face.</p>
+    </section>
+
+    <section id="menu">
+        <h2>Our Menu</h2>
+        <p>Check out our delightful offerings!</p>
+        <ul>
+            <li>Classic Glazed</li>
+            <li>Chocolate Sprinkles</li>
+            <li>Maple Bar</li>
+            <li>Strawberry Cream</li>
+            <li>Boston Cream</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Got questions? We'd love to hear from you!</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Paradise Donut Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
